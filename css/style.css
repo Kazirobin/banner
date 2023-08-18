@@ -1,0 +1,60 @@
+/* import font  */
+  @import url('https://fonts.googleapis.com/css2?family=Signika:wght@500&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px; 
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+.hamburger_menu {
+    border: 0;
+    height: 30px;
+    width: 30px;
+    font-size: 24px; 
+    color: #264E54; 
+    cursor: pointer;
+}
+
+.menu-link, span {
+    color: #264E54;
+    font-weight: 700; 
+    text-decoration: none; 
+}
+.banner{
+    height: 800px;
+    background-image: url(../img/banner.png);
+    width: 100%;
+}
+.banner_heading{
+    font-size: 45px;
+    color: #264E54;
+    text-transform: uppercase;
+    text-align: center;
+    padding-block-start: 100px;
+    font-family: 'Signika', sans-serif;
+}
+.text_orange{
+    color: #E67A1A ;
+}
+.banner_paragraph{
+    color: #264E54;
+    text-align: center;
+}
+.text_capitalize{
+    text-transform: capitalize;
+}
